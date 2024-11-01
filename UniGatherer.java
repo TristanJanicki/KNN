@@ -42,7 +42,7 @@ public class UniGatherer {
 
 
         try{
-            URL url = new URL("https://maps.googleapis.com/maps/api/place/textsearch/json?query=universities+in+"+region+"&key=AIzaSyCEEDi3d9JvpAqkAqXIDOFGcw5wwghza3E");
+            URL url = new URL("https://maps.googleapis.com/maps/api/place/textsearch/json?query=universities+in+"+region+"&key=");
             HttpURLConnection conn = (HttpsURLConnection) url.openConnection();
 
             conn.setRequestMethod("GET");
